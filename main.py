@@ -52,4 +52,4 @@ for x in range(4):
 
         # Add ASCII character represented by keycode using the keycode dictionary
         password += str(keycodes[str(keycode)])
-    print("Password ",x+1,": ",password)
+    print(f"Password {x+1}: {password}")
